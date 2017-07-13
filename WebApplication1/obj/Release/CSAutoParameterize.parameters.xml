@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="CMSdb-Web.config Connection String" description="CMSdb Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\CMSdb.mdf;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Dylan\\Documents\\Visual\ Studio\ 2017\\Projects\\WebApplication1\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CMSdb']/@connectionString" />
+  </parameter>
+  <parameter name="AzureDB-Web.config Connection String" description="AzureDB Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:cms-ddac-server.database.windows.net,1433;Initial Catalog=cms-database;Persist Security Info=False;User ID=cms-tp035371;Password=AzureWeb123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Dylan\\Documents\\Visual\ Studio\ 2017\\Projects\\WebApplication1\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AzureDB']/@connectionString" />
+  </parameter>
+</parameters>
